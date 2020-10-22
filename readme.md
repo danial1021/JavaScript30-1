@@ -1,4 +1,8 @@
-﻿![](https://javascript30.com/images/JS3-social-share.png)
+﻿# 목적 및 과정 방법
+
+각각의 미니프로젝트를 공부한 후 느낌 점 및 배운 점을 각각의 프로젝트에 readme.md를 추가하여 정리
+
+![](https://javascript30.com/images/JS3-social-share.png)
 
 # JavaScript30
 
