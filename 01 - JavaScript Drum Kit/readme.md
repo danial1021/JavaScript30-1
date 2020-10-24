@@ -47,6 +47,6 @@ key 클래스를 가진 모든 요소를 keys에 배열로 담고<br>
 forEach를 사용해 각각의 요소에 변화가 끝나면(transitionend) removeTransition 함수를 실행하고,<br>
 keydown 이라는 이벤트가 실행되면 playSound함수가 작동함
 
-> 찾아본 것 | 알게된 점
+> 찾아본 것 | 알게된 점<br>
 HTML DOM classList Property<br>
 HTML kbd tag
