@@ -62,10 +62,12 @@
       background: black;
       position: absolute;
       top: 50%;
-      transform-origin: 100%;
-      transform: rotate(90deg);
-      transition: all 0.05s;
+      transform-origin: 100%; /* 변형 효과를 줄 때 원점을 지정해준다. 기준점을 오른쪽 으로 잡음. */
+      transform: rotate(90deg); /* 원점으로부터 회전 각도를 설정할 때 사용. 침이 12시 방향에 가도록 설정. */
+      transition: all 0.05s; /* 트랜지션시 애니메이션 속도 조절. 모든 트랜지션을 0.05초에 실행 완료 하겠다. */
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+      /* transition-timing-function은 트랜지션 효과가 진행하는 동안의 변화를 지정합니다. */ 
+      /* cubic-bezier는 전환 시작과 끝까지의 속도를 제어하는데 사용됩니다. */
       
     }
 
